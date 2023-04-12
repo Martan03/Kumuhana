@@ -1,0 +1,27 @@
+{
+  "name": "kumuhana",
+  "displayName": "Kumuhana",
+  "description": "Kumuhana theme!",
+  "version": "0.0.1",
+  "publisher": "Martan03",
+  "keywords": [
+    "theme",
+    "dark theme",
+    "kumuhana"
+  ],
+  "engines": {
+    "vscode": "^1.71.0"
+  },
+  "categories": [
+    "Themes"
+  ],
+  "contributes": {
+    "themes": [
+      {
+        "label": "Kumuhana",
+        "uiTheme": "vs-dark",
+        "path": "./themes/Kumuhana-color-theme.json"
+      }
+    ]
+  }
+}
