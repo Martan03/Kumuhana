@@ -2,11 +2,13 @@
   "name": "kumuhana",
   "displayName": "Kumuhana",
   "description": "Kumuhana theme!",
-  "version": "0.0.1",
+  "version": "0.0.2",
   "publisher": "Martan03",
   "keywords": [
     "theme",
     "dark theme",
+    "cyan",
+    "Martan03",
     "kumuhana"
   ],
   "engines": {
@@ -23,5 +25,8 @@
         "path": "./themes/Kumuhana-color-theme.json"
       }
     ]
+  },
+  "dependencies": {
+    "@vscode/vsce": "^2.19.0"
   }
 }
