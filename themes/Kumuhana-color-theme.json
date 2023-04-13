@@ -42,6 +42,7 @@
         "inputOption.activeBorder": "#3acbaf40",
         "inputOption.activeBackground": "#3acbaf35",
 		"list.activeSelectionBackground": "#3acbaf25",
+        "list.dropBackground": "#3acbaf19",
         "list.focusHighlightForeground": "#3acbaf",
         "list.highlightForeground": "#3acbaf",
         "list.inactiveSelectionBackground": "#2c2c2c",

@@ -2,14 +2,19 @@
   "name": "kumuhana",
   "displayName": "Kumuhana",
   "description": "Kumuhana theme!",
-  "version": "0.0.2",
+  "version": "0.0.4",
+  "icon": "kumuhana128.png",
+  "repository": {
+    "url": "https://github.com/Martan03/Kumuhana"
+  },
   "publisher": "Martan03",
+  "author": {
+    "name": "Martan03",
+    "url": "https://github.com/Martan03",
+    "email": "martinslezak03@gmail.com"
+  },
   "keywords": [
-    "theme",
-    "dark theme",
-    "cyan",
-    "Martan03",
-    "kumuhana"
+    "theme", "dark theme", "cyan", "Martan03", "kumuhana", "dark" 
   ],
   "engines": {
     "vscode": "^1.71.0"

@@ -1,9 +1,20 @@
 # Change Log
 
-All notable changes to the "kumuhana" extension will be documented in this file.
+All notable changes to the *Kumuhana* theme will be documented here.
 
-Check [Keep a Changelog](http://keepachangelog.com/) for recommendations on how to structure this file.
-
-## [Unreleased]
+## 0.0.1
 
 - Initial release
+
+## 0.0.2
+
+- Made better syntax highlighting
+
+## 0.0.3
+
+- Fixed colors that should've been changed but weren't
+
+## 0.0.4
+
+- Add icon
+- Fixed colors that should've been changed but weren't
