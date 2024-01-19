@@ -22,8 +22,14 @@ If you like this theme, you can also use
 design options.
 
 ## Installation:
+
 You can download the theme on
 [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=Martan03.kumuhana)
+
+## Credits:
+
+My syntax highlighting was heavily inspired by my
+[friend](https://github.com/BonnyAD9), thanks!
 
 ## Links
 

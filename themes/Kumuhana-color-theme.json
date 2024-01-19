@@ -159,17 +159,44 @@
                 "entity.name.tag",
                 "keyword.mnemonic",
                 "keyword",
-                "variable.language.this.js"
+                "variable.language.this.js",
+                "variable.language.this.php",
             ],
             "settings": {
                 "foreground": "#5cb3ee"
             }
         },
         {
+            "name": "PHP variable dollar",
+            "scope": [
+                "punctuation.definition.variable.php",
+                "variable.other.property.twig",
+                "punctuation.separator.property.twig",
+                "variable.other.twig",
+                "meta.function.arguments.twig",
+                "variable.other.assignment.shell",
+                "variable.other.normal.shell",
+            ],
+            "settings": {
+                "foreground": "#dadada",
+            }
+        },
+        {
+            "name": "PHP variables",
+            "scope": [
+                "variable.other.php",
+            ],
+            "settings": {
+                "foreground": "#ffa632",
+            }
+        },
+        {
             "name": "Function",
             "scope": [
                 "entity.name.function",
-                "support.function"
+                "support.function",
+                "meta.function-call.twig",
+                "meta.function-call.other.twig"
             ],
             "settings": {
                 "fontStyle": "italic",
@@ -183,7 +210,8 @@
                 "variable.other.makefile",
                 "meta.property-name.css",
                 "variable.other.positional",
-                "variable.other.metavariable.name.rust"
+                "variable.other.metavariable.name.rust",
+                "constant.other.option",
             ],
             "settings": {
                 "foreground": "#ffa632",
@@ -194,6 +222,10 @@
             "name": "Punctuation",
             "scope": [
                 "punctuation.definition.directive",
+                "punctuation.definition.parameters.begin.twig",
+                "punctuation.definition.parameters.end.twig",
+                "punctuation.section.hash.begin.twig",
+                "punctuation.section.hash.end.twig",
                 "copula"
             ],
             "settings": {
@@ -242,6 +274,9 @@
                 "source.makefile support.function",
                 "keyword.operator.conjunction",
                 "support.type.property-name.table.toml",
+                "support.function.builtin.shell",
+                "meta.scope.case-pattern.shell",
+                "punctuation.terminator.case-clause.shell",
             ],
             "settings": {
                 "foreground": "#4c8dff",
@@ -254,6 +289,16 @@
                 "entity.name.tag",
                 "storage.type.function.js",
                 "keyword.other.fn.rust",
+                "storage.type.function.php",
+                "storage.modifier.php",
+                "storage.type.class.php",
+                "keyword.other.namespace.php",
+                "keyword.other.use.php",
+                "keyword.other.class.php",
+                "keyword.other.new.php",
+                "keyword.other.phpdoc.php",
+                "storage.modifier.export.shell",
+                "storage.type.function.shell",
             ],
             "settings": {
                 "foreground": "#4c8dff",
@@ -340,7 +385,8 @@
             "scope": [
                 "constant.numeric",
                 "constant.other.color",
-                "constant.language"
+                "constant.language",
+                "meta.scope.case-clause-body.shell",
             ],
             "settings": {
                 "foreground": "#d072e5"
@@ -350,7 +396,7 @@
             "name": "Keyword unit",
             "scope": [
                 "keyword.other.unit",
-                "punctuation.definition.constant.css"
+                "punctuation.definition.constant.css",
             ],
             "settings": {
                 "foreground": "#c32de5"
@@ -359,7 +405,14 @@
         {
             "name": "Enum member",
             "scope": [
-                "variable.other.enummember"
+                "variable.other.enummember",
+                "punctuation.section.tag.twig",
+                "punctuation.definition.evaluation.parens.begin.shell",
+                "punctuation.definition.evaluation.parens.end.shell",
+                "constant.other.option.dash.shell",
+                "punctuation.definition.evaluation.arithmetic.begin.shell",
+                "punctuation.definition.evaluation.arithmetic.end.shell",
+                "punctuation.definition.variable.shell",
             ],
             "settings": {
                 "foreground": "#ccc88e"
@@ -402,7 +455,7 @@
             "scope": [
                 "entity.name.type.interface",
                 "text.tex.latex constant.other",
-                "entity.other.inherited-class.vhdl"
+                "entity.other.inherited-class.vhdl",
             ],
             "settings": {
                 "foreground": "#b0cc28"
@@ -443,7 +496,7 @@
             "name": "Inline",
             "scope": [
                 "markup.inline",
-                "markup.fenced_code.block"
+                "markup.fenced_code.block",
             ],
             "settings": {
                 "foreground": "#e5a55b",
@@ -452,7 +505,7 @@
         {
             "name": "Langugage code block",
             "scope": [
-                "fenced_code.block.language"
+                "fenced_code.block.language",
             ],
             "settings": {
                 "foreground": "#e0e55b",
@@ -520,7 +573,7 @@
             "name": "Image punctuation",
             "scope": [
                 "punctuation.definition.link.description",
-                "meta.image.inline punctuation.definition.metadata"
+                "meta.image.inline punctuation.definition.metadata",
             ],
             "settings": {
                 "foreground": "#2ecc28",
@@ -531,7 +584,7 @@
             "scope": [
                 "string.other.link.title",
                 "string.other.link.description",
-                "support.type.register"
+                "support.type.register",
             ],
             "settings": {
                 "foreground": "#e5ce5b"
@@ -567,7 +620,7 @@
                 "source.css support.constant",
                 "entity.name.variable.preprocessor.symbol.cs",
                 "source.shell variable.other",
-                "text.tex.latex support.function"
+                "text.tex.latex support.function",
             ],
             "settings": {
                 "foreground": "#e2ccff",
