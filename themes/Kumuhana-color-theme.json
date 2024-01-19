@@ -101,7 +101,7 @@
         "sideBarSectionHeader.foreground": "#ddd",
 		"sideBarTitle.foreground": "#bbbbbb",
 		"statusBar.background": "#3acbaf",
-		"statusBar.debuggingBackground": "#29cec0",
+		"statusBar.debuggingBackground": "#299b84",
 		"statusBar.foreground": "#000000",
 		"statusBar.noFolderBackground": "#3acbaf90",
         "tab.activeBorder": "#1c1c1c",
@@ -124,8 +124,21 @@
         "tree.indentGuidesStroke": "#3acbaf40",
         "widget.border": "#3acbaf60",
         "widget.shadow": "#3acbaf20",
+        "window.activeBorder": "#3acbaf60",
+        "window.inactiveBorder": "#3acbaf30"
 	},
 	"tokenColors": [
+        {
+            "name": "Library",
+            "scope": [
+                "meta.preprocessor string",
+                "entity.name.namespace",
+                "entity.name.section.vhdl"
+            ],
+            "settings": {
+                "foreground": "#19b6ff"
+            }
+        },
         {
             "name": "Preprocessor",
             "scope": [
@@ -137,17 +150,6 @@
             }
         },
         {
-            "name":    "Library",
-            "scope": [
-                "meta.preprocessor string",
-                "entity.name.namespace",
-                "entity.name.section.vhdl"
-            ],
-            "settings": {
-                "foreground": "#19b6ff"
-            }
-        },
-        {
             "name": "Primitives",
             "scope": [
                 "storage.type",
@@ -156,10 +158,11 @@
                 "keyword.type",
                 "entity.name.tag",
                 "keyword.mnemonic",
-                "keyword"
+                "keyword",
+                "variable.language.this.js"
             ],
             "settings": {
-                "foreground": "#4c8dff"
+                "foreground": "#5cb3ee"
             }
         },
         {
@@ -179,7 +182,8 @@
                 "variable.parameter",
                 "variable.other.makefile",
                 "meta.property-name.css",
-                "variable.other.positional"
+                "variable.other.positional",
+                "variable.other.metavariable.name.rust"
             ],
             "settings": {
                 "foreground": "#ffa632",
@@ -203,7 +207,8 @@
                 "storage.modifier.pointer.cpp",
                 "source.makefile punctuation",
                 "storage.type.function.arrow.js",
-                "punctuation.separator.key-value.html"
+                "punctuation.separator.key-value.html",
+                "punctuation.accessor.optional.js"
             ],
             "settings": {
                 "foreground": "#6eaecc"
@@ -236,11 +241,22 @@
                 "keyword.control",
                 "source.makefile support.function",
                 "keyword.operator.conjunction",
-                "support.type.property-name.table.toml"
+                "support.type.property-name.table.toml",
             ],
             "settings": {
                 "foreground": "#4c8dff",
                 "fontStyle": "italic"
+            }
+        },
+        {
+            "name": "Control keywords 2",
+            "scope": [
+                "entity.name.tag",
+                "storage.type.function.js",
+                "keyword.other.fn.rust",
+            ],
+            "settings": {
+                "foreground": "#4c8dff",
             }
         },
         {
@@ -323,6 +339,7 @@
             "name": "Number",
             "scope": [
                 "constant.numeric",
+                "constant.other.color",
                 "constant.language"
             ],
             "settings": {
@@ -332,7 +349,8 @@
         {
             "name": "Keyword unit",
             "scope": [
-                "keyword.other.unit"
+                "keyword.other.unit",
+                "punctuation.definition.constant.css"
             ],
             "settings": {
                 "foreground": "#c32de5"
@@ -353,7 +371,8 @@
                 "entity.name.type.class",
                 "support.class",
                 "support.class punctuation.definition.string",
-                "entity.name.type.vhdl"
+                "entity.name.type.vhdl",
+                "meta.macro.metavariable.rust"
             ],
             "settings": {
                 "foreground": "#28c3cc"
@@ -363,7 +382,7 @@
             "name": "Struct",
             "scope": [
                 "entity.name.type.struct",
-                "keyword.operator.adverb"
+                "keyword.operator.adverb",
             ],
             "settings": {
                 "foreground": "#28cc92"

@@ -1,13 +1,29 @@
 # Kumuhana
 
+Dark theme for VSCode with syntax highlighting
+
+## Description
+
+I tried creating my own VSCode theme and this is how it came out:
+
+![image](https://user-images.githubusercontent.com/46300167/231892352-bf1f5e93-24e5-4a9e-9035-1ca871fd638c.png)
+
+Kumuhana is dark theme for VSCode with cyan accents (I might add option to
+change accent color later). This theme will evolve over the time as I find
+problems or come up with good idea to make it even better.
+
 Kumuhana is dark theme for VSCode with cyan accents. Syntax highlighting was
 heavily inspired by my [friend](https://github.com/BonnyAD9), so thanks! :)
 
-This is how it looks like:
-![image](https://user-images.githubusercontent.com/46300167/231892352-bf1f5e93-24e5-4a9e-9035-1ca871fd638c.png)
+## Suggestion
 
-## Instalation:
-You can download the theme on [VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=Martan03.kumuhana)
+If you like this theme, you can also use
+[my Firefox style](https://github.com/Martan03/clean-fox) that uses similar
+design options.
+
+## Installation:
+You can download the theme on
+[VSCode Marketplace](https://marketplace.visualstudio.com/items?itemName=Martan03.kumuhana)
 
 ## Links
 
