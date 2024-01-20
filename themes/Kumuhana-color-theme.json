@@ -150,9 +150,32 @@
             }
         },
         {
+            "name": "Control keywords 2",
+            "scope": [
+                "entity.name.tag",
+                "keyword.other.fn.rust",
+                "storage.modifier.php",
+                "keyword.other.namespace.php",
+                "keyword.other.use.php",
+                "keyword.other.class.php",
+                "keyword.other.new.php",
+                "keyword.other.phpdoc.php",
+                "storage.modifier.export.shell",
+                "storage.type.function.shell",
+                "storage.modifier.c",
+                "storage.modifier.specifier.const.cpp",
+                "keyword.mnemonic.x86.asm",
+                "keyword.mnemonic.z80.asm",
+                "storage.type",
+                "keyword.other.rust"
+            ],
+            "settings": {
+                "foreground": "#4c8dff",
+            }
+        },
+        {
             "name": "Primitives",
             "scope": [
-                "storage.type",
                 "storage.modifier",
                 "keyword.other",
                 "keyword.type",
@@ -161,15 +184,15 @@
                 "keyword",
                 "variable.language.this.js",
                 "variable.language.this.php",
+                "storage.type.built-in.primitive.c",
             ],
             "settings": {
                 "foreground": "#5cb3ee"
             }
         },
         {
-            "name": "PHP variable dollar",
+            "name": "White things",
             "scope": [
-                "punctuation.definition.variable.php",
                 "variable.other.property.twig",
                 "punctuation.separator.property.twig",
                 "variable.other.twig",
@@ -179,15 +202,6 @@
             ],
             "settings": {
                 "foreground": "#dadada",
-            }
-        },
-        {
-            "name": "PHP variables",
-            "scope": [
-                "variable.other.php",
-            ],
-            "settings": {
-                "foreground": "#ffa632",
             }
         },
         {
@@ -240,7 +254,9 @@
                 "source.makefile punctuation",
                 "storage.type.function.arrow.js",
                 "punctuation.separator.key-value.html",
-                "punctuation.accessor.optional.js"
+                "punctuation.accessor.optional.js",
+                "punctuation.definition.variable.php",
+                "punctuation.separator.pointer-access.c",
             ],
             "settings": {
                 "foreground": "#6eaecc"
@@ -281,27 +297,6 @@
             "settings": {
                 "foreground": "#4c8dff",
                 "fontStyle": "italic"
-            }
-        },
-        {
-            "name": "Control keywords 2",
-            "scope": [
-                "entity.name.tag",
-                "storage.type.function.js",
-                "keyword.other.fn.rust",
-                "storage.type.function.php",
-                "storage.modifier.php",
-                "storage.type.class.php",
-                "keyword.other.namespace.php",
-                "keyword.other.use.php",
-                "keyword.other.class.php",
-                "keyword.other.new.php",
-                "keyword.other.phpdoc.php",
-                "storage.modifier.export.shell",
-                "storage.type.function.shell",
-            ],
-            "settings": {
-                "foreground": "#4c8dff",
             }
         },
         {
@@ -648,7 +643,8 @@
         {
             "name": "rust attribute",
             "scope": [
-                "meta.attribute.rust"
+                "meta.attribute.rust",
+                "meta.attribute.php"
             ],
             "settings": {
                 "foreground": "#b4b4b4",
