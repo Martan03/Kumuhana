@@ -140,26 +140,12 @@
             }
         },
         {
-            "name": "Preprocessor",
-            "scope": [
-                "meta.preprocessor",
-            ],
-            "settings": {
-                "foreground": "#19b6ff",
-                "fontStyle": "italic"
-            }
-        },
-        {
             "name": "Control keywords 2",
             "scope": [
+                "keyword.other",
                 "entity.name.tag",
                 "keyword.other.fn.rust",
                 "storage.modifier.php",
-                "keyword.other.namespace.php",
-                "keyword.other.use.php",
-                "keyword.other.class.php",
-                "keyword.other.new.php",
-                "keyword.other.phpdoc.php",
                 "storage.modifier.export.shell",
                 "storage.type.function.shell",
                 "storage.modifier.c",
@@ -167,7 +153,7 @@
                 "keyword.mnemonic.x86.asm",
                 "keyword.mnemonic.z80.asm",
                 "storage.type",
-                "keyword.other.rust"
+                "storage.modifier",
             ],
             "settings": {
                 "foreground": "#4c8dff",
@@ -176,15 +162,9 @@
         {
             "name": "Primitives",
             "scope": [
-                "storage.modifier",
-                "keyword.other",
                 "keyword.type",
-                "entity.name.tag",
                 "keyword.mnemonic",
                 "keyword",
-                "variable.language.this.js",
-                "variable.language.this.php",
-                "storage.type.built-in.primitive.c",
             ],
             "settings": {
                 "foreground": "#5cb3ee"
@@ -199,6 +179,7 @@
                 "meta.function.arguments.twig",
                 "variable.other.assignment.shell",
                 "variable.other.normal.shell",
+                "meta.tag.template.value.twig",
             ],
             "settings": {
                 "foreground": "#dadada",
@@ -207,14 +188,37 @@
         {
             "name": "Function",
             "scope": [
-                "entity.name.function",
                 "support.function",
+                "entity.name.function",
                 "meta.function-call.twig",
-                "meta.function-call.other.twig"
+                "meta.function-call.other.twig",
+                "entity.name.function.target.makefile",
+                "entity.name.function.call.cpp",
             ],
             "settings": {
                 "fontStyle": "italic",
 				"foreground": "#c5efef"
+            }
+        },
+        {
+            "name": "Entity variable",
+            "scope": [
+                "variable.other.object.property.js.jsx",
+                "support.variable.property.js.jsx",
+                "variable.other.object.property.js",
+            ],
+            "settings": {
+                "foreground": "#c5efdd",
+            }
+        },
+        {
+            "name": "Entity function",
+            "scope": [
+                "entity.name.function.member.cpp",
+            ],
+            "settings": {
+				"foreground": "#c5efdd",
+                "fontStyle": "italic",
             }
         },
         {
@@ -226,6 +230,7 @@
                 "variable.other.positional",
                 "variable.other.metavariable.name.rust",
                 "constant.other.option",
+                "variable.class",
             ],
             "settings": {
                 "foreground": "#ffa632",
@@ -240,7 +245,7 @@
                 "punctuation.definition.parameters.end.twig",
                 "punctuation.section.hash.begin.twig",
                 "punctuation.section.hash.end.twig",
-                "copula"
+                "copula",
             ],
             "settings": {
                 "foreground": "#70aef0"
@@ -255,6 +260,7 @@
                 "storage.type.function.arrow.js",
                 "punctuation.separator.key-value.html",
                 "punctuation.accessor.optional.js",
+                "punctuation.separator.pipe-sign.shell",
                 "punctuation.definition.variable.php",
                 "punctuation.separator.pointer-access.c",
             ],
@@ -381,7 +387,6 @@
                 "constant.numeric",
                 "constant.other.color",
                 "constant.language",
-                "meta.scope.case-clause-body.shell",
             ],
             "settings": {
                 "foreground": "#d072e5"
@@ -408,6 +413,7 @@
                 "punctuation.definition.evaluation.arithmetic.begin.shell",
                 "punctuation.definition.evaluation.arithmetic.end.shell",
                 "punctuation.definition.variable.shell",
+                "punctuation.section.embedded.begin.php",
             ],
             "settings": {
                 "foreground": "#ccc88e"
@@ -471,7 +477,7 @@
         {
             "name": "Section",
             "scope": [
-                "entity.name.section"
+                "entity.name.section",
             ],
             "settings": {
                 "foreground": "#b2e6ff",
@@ -631,13 +637,27 @@
             }
         },
         {
-            "name": "numeric type",
+            "name": "Date type",
             "scope": [
                 "entity.name.type.numeric",
-                "entity.name.type.primitive.rust"
+                "entity.name.type.primitive.rust",
+                "keyword.other.type.php",
+                "storage.type.built-in.primitive.c",
+                "storage.type.built-in.primitive.cpp",
+                "support.type.swift",
             ],
             "settings": {
-                "foreground": "#ed478f",
+                "foreground": "#f0608b"
+            }
+        },
+        {
+            "name": "This",
+            "scope": [
+                "variable.language.this"
+            ],
+            "settings": {
+                "foreground": "#e7569f",
+                "fontStyle": "italic",
             }
         },
         {
@@ -649,6 +669,15 @@
             "settings": {
                 "foreground": "#b4b4b4",
                 "fontStyle": "bold"
+            }
+        },
+        {
+            "name": "macro",
+            "scope": [
+                "entity.name.function.preprocessor.c",
+            ],
+            "settings": {
+                "foreground": "#e2b8ff",
             }
         }
     ],

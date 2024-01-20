@@ -6,11 +6,11 @@ All notable changes to the *Kumuhana* theme will be documented here.
 
 - Fixed colors that should've ben change but weren't
 - Edit syntax highlighting
-    - Rust macros highlighting
-    - CSS hex color highlighting
-    - Edit PHP highlighting (this, datatypes, variables)
-    - Add twig highlighting
-    - Add bash highlighting
+    - Change data type color
+    - Rust macros
+    - CSS hex color
+    - Edit PHP (this, variables,...)
+    - Add twig & bash support
     - Other tweaks
 
 ## 0.0.4
