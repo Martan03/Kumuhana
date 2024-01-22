@@ -12,9 +12,6 @@ Kumuhana is dark theme for VSCode with cyan accents (I might add option to
 change accent color later). This theme will evolve over the time as I find
 problems or come up with good idea to make it even better.
 
-Kumuhana is dark theme for VSCode with cyan accents. Syntax highlighting was
-heavily inspired by my [friend](https://github.com/BonnyAD9), so thanks! :)
-
 ## Suggestion
 
 If you like this theme, you can also use

@@ -140,20 +140,15 @@
             }
         },
         {
-            "name": "Control keywords 2",
+            "name": "Keywords",
             "scope": [
-                "keyword.other",
                 "entity.name.tag",
-                "keyword.other.fn.rust",
-                "storage.modifier.php",
-                "storage.modifier.export.shell",
-                "storage.type.function.shell",
-                "storage.modifier.c",
-                "storage.modifier.specifier.const.cpp",
-                "keyword.mnemonic.x86.asm",
-                "keyword.mnemonic.z80.asm",
-                "storage.type",
+                "keyword",
+                "keyword.mnemonic",
+                "keyword.other",
                 "storage.modifier",
+                "storage.type",
+                "storage.type.function.shell",
             ],
             "settings": {
                 "foreground": "#4c8dff",
@@ -163,8 +158,6 @@
             "name": "Primitives",
             "scope": [
                 "keyword.type",
-                "keyword.mnemonic",
-                "keyword",
             ],
             "settings": {
                 "foreground": "#5cb3ee"
@@ -192,23 +185,12 @@
                 "entity.name.function",
                 "meta.function-call.twig",
                 "meta.function-call.other.twig",
-                "entity.name.function.target.makefile",
-                "entity.name.function.call.cpp",
+                // "entity.name.function.target.makefile",
+                // "entity.name.function.call.cpp",
             ],
             "settings": {
                 "fontStyle": "italic",
 				"foreground": "#c5efef"
-            }
-        },
-        {
-            "name": "Entity variable",
-            "scope": [
-                "variable.other.object.property.js.jsx",
-                "support.variable.property.js.jsx",
-                "variable.other.object.property.js",
-            ],
-            "settings": {
-                "foreground": "#c5efdd",
             }
         },
         {
@@ -228,7 +210,7 @@
                 "variable.other.makefile",
                 "meta.property-name.css",
                 "variable.other.positional",
-                "variable.other.metavariable.name.rust",
+                "variable.other.metavariable.name",
                 "constant.other.option",
                 "variable.class",
             ],
@@ -653,10 +635,11 @@
         {
             "name": "This",
             "scope": [
-                "variable.language.this"
+                "variable.language.this",
+                "variable.language.self",
             ],
             "settings": {
-                "foreground": "#e7569f",
+                "foreground": "#eb65b3",
                 "fontStyle": "italic",
             }
         },
@@ -706,6 +689,15 @@
         "typeParameter": {
             "foreground": "#28cc92",
             "fontStyle": "bold"
-        }
+        },
+        "selfKeyword": {
+            "foreground": "#eb65b3",
+            "fontStyle": "italic",
+        },
+        "method": {
+            "foreground": "#c5efdd",
+            "fontStyle": "italic",
+        },
+        "property": "#c5efdd",
     }
 }
